@@ -1,0 +1,303 @@
+[1/15] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\35192\Desktop\Cypress\Terminal\Cypress Terminal Platform\e1_adc_measurement\build\bootloader\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/esp/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+ccache C:\Espressif\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DUNITY_INCLUDE_CONFIG_H -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/build/config" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main" -IC:/esp/esp-idf-v5.0.1/components/newlib/platform_include -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include/freertos -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/. -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/private_include -IC:/esp/esp-idf-v5.0.1/components/heap/include -IC:/esp/esp-idf-v5.0.1/components/log/include -IC:/esp/esp-idf-v5.0.1/components/soc/include -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/. -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/include -IC:/esp/esp-idf-v5.0.1/components/hal/platform_port/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_rom/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_common/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/soc -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/include/private -IC:/esp/esp-idf-v5.0.1/components/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/xtensa/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps/sntp -IC:/esp/esp-idf-v5.0.1/components/lwip/lwip/src/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include/arch -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/include" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/interface" -IC:/esp/esp-idf-v5.0.1/components/esp_ringbuf/include -IC:/esp/esp-idf-v5.0.1/components/efuse/include -IC:/esp/esp-idf-v5.0.1/components/efuse/esp32/include -IC:/esp/esp-idf-v5.0.1/components/driver/include -IC:/esp/esp-idf-v5.0.1/components/driver/deprecated -IC:/esp/esp-idf-v5.0.1/components/driver/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_pm/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/port/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/library -IC:/esp/esp-idf-v5.0.1/components/mbedtls/esp_crt_bundle/include -IC:/esp/esp-idf-v5.0.1/components/esp_app_format/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/bootloader_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_partition/include -IC:/esp/esp-idf-v5.0.1/components/app_update/include -IC:/esp/esp-idf-v5.0.1/components/spi_flash/include -IC:/esp/esp-idf-v5.0.1/components/pthread/include -IC:/esp/esp-idf-v5.0.1/components/esp_timer/include -IC:/esp/esp-idf-v5.0.1/components/app_trace/include -IC:/esp/esp-idf-v5.0.1/components/esp_event/include -IC:/esp/esp-idf-v5.0.1/components/nvs_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/esp32/include -IC:/esp/esp-idf-v5.0.1/components/vfs/include -IC:/esp/esp-idf-v5.0.1/components/esp_netif/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/port/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/esp_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/esp_wifi/include -IC:/esp/esp-idf-v5.0.1/components/unity/include -IC:/esp/esp-idf-v5.0.1/components/unity/unity/src -IC:/esp/esp-idf-v5.0.1/components/cmock/CMock/src -IC:/esp/esp-idf-v5.0.1/components/console -IC:/esp/esp-idf-v5.0.1/components/http_parser -IC:/esp/esp-idf-v5.0.1/components/esp-tls -IC:/esp/esp-idf-v5.0.1/components/esp-tls/esp-tls-crypto -IC:/esp/esp-idf-v5.0.1/components/esp_adc/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/interface -IC:/esp/esp-idf-v5.0.1/components/esp_adc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/deprecated/include -IC:/esp/esp-idf-v5.0.1/components/esp_eth/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/xtensa -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hid/include -IC:/esp/esp-idf-v5.0.1/components/tcp_transport/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_client/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_server/include -IC:/esp/esp-idf-v5.0.1/components/esp_https_ota/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/interface -IC:/esp/esp-idf-v5.0.1/components/protobuf-c/protobuf-c -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/common -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/security -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/transports -IC:/esp/esp-idf-v5.0.1/components/esp_local_ctrl/include -IC:/esp/esp-idf-v5.0.1/components/esp_psram/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include/port/xtensa -IC:/esp/esp-idf-v5.0.1/components/wear_levelling/include -IC:/esp/esp-idf-v5.0.1/components/sdmmc/include -IC:/esp/esp-idf-v5.0.1/components/fatfs/diskio -IC:/esp/esp-idf-v5.0.1/components/fatfs/vfs -IC:/esp/esp-idf-v5.0.1/components/fatfs/src -IC:/esp/esp-idf-v5.0.1/components/idf_test/include -IC:/esp/esp-idf-v5.0.1/components/idf_test/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/ieee802154/include -IC:/esp/esp-idf-v5.0.1/components/json/cJSON -IC:/esp/esp-idf-v5.0.1/components/mqtt/esp-mqtt/include -IC:/esp/esp-idf-v5.0.1/components/perfmon/include -IC:/esp/esp-idf-v5.0.1/components/spiffs/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og "-fmacro-prefix-map=C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement=." -fmacro-prefix-map=C:/esp/esp-idf-v5.0.1=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.1-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c "C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/main.c"
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/main.c:98:
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/wifi_info_handler.h:2:8: error: unknown type name 'esp_netif_t'
+    2 | extern esp_netif_t * p_netif;
+      |        ^~~~~~~~~~~
+[3/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/TcpServer.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/TcpServer.c.obj 
+ccache C:\Espressif\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DUNITY_INCLUDE_CONFIG_H -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/build/config" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main" -IC:/esp/esp-idf-v5.0.1/components/newlib/platform_include -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include/freertos -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/. -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/private_include -IC:/esp/esp-idf-v5.0.1/components/heap/include -IC:/esp/esp-idf-v5.0.1/components/log/include -IC:/esp/esp-idf-v5.0.1/components/soc/include -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/. -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/include -IC:/esp/esp-idf-v5.0.1/components/hal/platform_port/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_rom/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_common/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/soc -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/include/private -IC:/esp/esp-idf-v5.0.1/components/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/xtensa/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps/sntp -IC:/esp/esp-idf-v5.0.1/components/lwip/lwip/src/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include/arch -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/include" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/interface" -IC:/esp/esp-idf-v5.0.1/components/esp_ringbuf/include -IC:/esp/esp-idf-v5.0.1/components/efuse/include -IC:/esp/esp-idf-v5.0.1/components/efuse/esp32/include -IC:/esp/esp-idf-v5.0.1/components/driver/include -IC:/esp/esp-idf-v5.0.1/components/driver/deprecated -IC:/esp/esp-idf-v5.0.1/components/driver/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_pm/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/port/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/library -IC:/esp/esp-idf-v5.0.1/components/mbedtls/esp_crt_bundle/include -IC:/esp/esp-idf-v5.0.1/components/esp_app_format/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/bootloader_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_partition/include -IC:/esp/esp-idf-v5.0.1/components/app_update/include -IC:/esp/esp-idf-v5.0.1/components/spi_flash/include -IC:/esp/esp-idf-v5.0.1/components/pthread/include -IC:/esp/esp-idf-v5.0.1/components/esp_timer/include -IC:/esp/esp-idf-v5.0.1/components/app_trace/include -IC:/esp/esp-idf-v5.0.1/components/esp_event/include -IC:/esp/esp-idf-v5.0.1/components/nvs_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/esp32/include -IC:/esp/esp-idf-v5.0.1/components/vfs/include -IC:/esp/esp-idf-v5.0.1/components/esp_netif/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/port/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/esp_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/esp_wifi/include -IC:/esp/esp-idf-v5.0.1/components/unity/include -IC:/esp/esp-idf-v5.0.1/components/unity/unity/src -IC:/esp/esp-idf-v5.0.1/components/cmock/CMock/src -IC:/esp/esp-idf-v5.0.1/components/console -IC:/esp/esp-idf-v5.0.1/components/http_parser -IC:/esp/esp-idf-v5.0.1/components/esp-tls -IC:/esp/esp-idf-v5.0.1/components/esp-tls/esp-tls-crypto -IC:/esp/esp-idf-v5.0.1/components/esp_adc/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/interface -IC:/esp/esp-idf-v5.0.1/components/esp_adc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/deprecated/include -IC:/esp/esp-idf-v5.0.1/components/esp_eth/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/xtensa -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hid/include -IC:/esp/esp-idf-v5.0.1/components/tcp_transport/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_client/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_server/include -IC:/esp/esp-idf-v5.0.1/components/esp_https_ota/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/interface -IC:/esp/esp-idf-v5.0.1/components/protobuf-c/protobuf-c -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/common -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/security -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/transports -IC:/esp/esp-idf-v5.0.1/components/esp_local_ctrl/include -IC:/esp/esp-idf-v5.0.1/components/esp_psram/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include/port/xtensa -IC:/esp/esp-idf-v5.0.1/components/wear_levelling/include -IC:/esp/esp-idf-v5.0.1/components/sdmmc/include -IC:/esp/esp-idf-v5.0.1/components/fatfs/diskio -IC:/esp/esp-idf-v5.0.1/components/fatfs/vfs -IC:/esp/esp-idf-v5.0.1/components/fatfs/src -IC:/esp/esp-idf-v5.0.1/components/idf_test/include -IC:/esp/esp-idf-v5.0.1/components/idf_test/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/ieee802154/include -IC:/esp/esp-idf-v5.0.1/components/json/cJSON -IC:/esp/esp-idf-v5.0.1/components/mqtt/esp-mqtt/include -IC:/esp/esp-idf-v5.0.1/components/perfmon/include -IC:/esp/esp-idf-v5.0.1/components/spiffs/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og "-fmacro-prefix-map=C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement=." -fmacro-prefix-map=C:/esp/esp-idf-v5.0.1=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.1-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/TcpServer.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\TcpServer.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/TcpServer.c.obj -c "C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c"
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:24,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:1:
+C:/esp/esp-idf-v5.0.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c: In function 'tcp_send_to_clients':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:13:25: error: 'account_list_size' undeclared (first use in this function)
+   13 |     for(int i = 0 ; i < account_list_size ; i++){
+      |                         ^~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:13:25: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:15:12: error: 'account_struct_list' undeclared (first use in this function)
+   15 |         if(account_struct_list[i].sock != -1){
+      |            ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c: In function 'process_tcp_data':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:510:1: error: multi-line comment [-Werror=comment]
+  510 | //                 char temp_data[20] = {WIRE_CON_SD3, wire_con_slave_id_array[slave_id_index], WIRE_CON_MASTER_ID, 0x03, \
+      | ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:538:1: error: multi-line comment [-Werror=comment]
+  538 | //                 char temp_data[20] = {WIRE_CON_SD3, wire_con_slave_id_array[slave_id_index], WIRE_CON_MASTER_ID, 0x03, \
+      | ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c: In function 'receiving_tcp_data':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:646:120: warning: passing argument 4 of 'xTaskCreate' makes pointer from integer without a cast [-Wint-conversion]
+  646 |                 xTaskCreate(check_tcp_recv_timeout_task, "check_tcp_recv_timeout", CHECK_TCP_TIMEOUT_TASK_STACK_DEPTH, sock , 5, NULL);
+      |                                                                                                                        ^~~~
+      |                                                                                                                        |
+      |                                                                                                                        int
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:2,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:1:
+C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:447:42: note: expected 'void * const' but argument is of type 'int'
+  447 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:655:14: error: 'account_struct_list' undeclared (first use in this function)
+  655 |     shutdown(account_struct_list[account_index].sock, 0);
+      |              ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:574:40: error: parameter 'account_index' set but not used [-Werror=unused-but-set-parameter]
+  574 | void receiving_tcp_data(int sock , int account_index){
+      |                                    ~~~~^~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c: In function 'is_tcp_socket_exist':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:665:8: error: 'account_list_size' undeclared (first use in this function)
+  665 |     if(account_list_size == 0){
+      |        ^~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:670:12: error: 'account_struct_list' undeclared (first use in this function)
+  670 |         if(account_struct_list[i].ip4 == ip){
+      |            ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c: In function 'tcp_server_task':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:756:27: error: 'account_struct_list' undeclared (first use in this function)
+  756 |                     close(account_struct_list[temp_tcp_sock_index].sock);
+      |                           ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:759:33: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  759 |                     xTaskCreate(receiving_tcp_data, "receiving_tcp_data", TCP_SERVER_TASK_STACK_DEPTH, sock , 5, NULL);
+      |                                 ^~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 void (*)(int,  int)
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:2,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:1:
+C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:444:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(int,  int)'
+  444 |                             TaskFunction_t pvTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:759:104: warning: passing argument 4 of 'xTaskCreate' makes pointer from integer without a cast [-Wint-conversion]
+  759 |                     xTaskCreate(receiving_tcp_data, "receiving_tcp_data", TCP_SERVER_TASK_STACK_DEPTH, sock , 5, NULL);
+      |                                                                                                        ^~~~
+      |                                                                                                        |
+      |                                                                                                        int
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:2,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:1:
+C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:447:42: note: expected 'void * const' but argument is of type 'int'
+  447 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/TcpServer.c:710:13: warning: variable 'err' set but not used [-Wunused-but-set-variable]
+  710 |         int err = bind(listen_sock, (struct sockaddr *)&dest_addr, sizeof(dest_addr));
+      |             ^~~
+cc1.exe: some warnings being treated as errors
+[4/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/params.c.obj
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:24,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/params.c:2:
+C:/esp/esp-idf-v5.0.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+[5/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi_info_handler.c.obj
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:24,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/wifi_info_handler.c:1:
+C:/esp/esp-idf-v5.0.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+[6/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/adc_handler.c.obj
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:24,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/adc_handler.c:1:
+C:/esp/esp-idf-v5.0.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+[7/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/AccessPointMode.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/AccessPointMode.c.obj 
+ccache C:\Espressif\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DUNITY_INCLUDE_CONFIG_H -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/build/config" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main" -IC:/esp/esp-idf-v5.0.1/components/newlib/platform_include -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include/freertos -IC:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/freertos/esp_additions/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/soc/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/. -IC:/esp/esp-idf-v5.0.1/components/esp_hw_support/port/esp32/private_include -IC:/esp/esp-idf-v5.0.1/components/heap/include -IC:/esp/esp-idf-v5.0.1/components/log/include -IC:/esp/esp-idf-v5.0.1/components/soc/include -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/. -IC:/esp/esp-idf-v5.0.1/components/soc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/esp32/include -IC:/esp/esp-idf-v5.0.1/components/hal/include -IC:/esp/esp-idf-v5.0.1/components/hal/platform_port/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include -IC:/esp/esp-idf-v5.0.1/components/esp_rom/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_rom/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_common/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/include -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/soc -IC:/esp/esp-idf-v5.0.1/components/esp_system/port/include/private -IC:/esp/esp-idf-v5.0.1/components/xtensa/include -IC:/esp/esp-idf-v5.0.1/components/xtensa/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps -IC:/esp/esp-idf-v5.0.1/components/lwip/include/apps/sntp -IC:/esp/esp-idf-v5.0.1/components/lwip/lwip/src/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include -IC:/esp/esp-idf-v5.0.1/components/lwip/port/esp32/include/arch -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/include" -I"C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/managed_components/espressif__led_strip/interface" -IC:/esp/esp-idf-v5.0.1/components/esp_ringbuf/include -IC:/esp/esp-idf-v5.0.1/components/efuse/include -IC:/esp/esp-idf-v5.0.1/components/efuse/esp32/include -IC:/esp/esp-idf-v5.0.1/components/driver/include -IC:/esp/esp-idf-v5.0.1/components/driver/deprecated -IC:/esp/esp-idf-v5.0.1/components/driver/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_pm/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/port/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/include -IC:/esp/esp-idf-v5.0.1/components/mbedtls/mbedtls/library -IC:/esp/esp-idf-v5.0.1/components/mbedtls/esp_crt_bundle/include -IC:/esp/esp-idf-v5.0.1/components/esp_app_format/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/include -IC:/esp/esp-idf-v5.0.1/components/bootloader_support/bootloader_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_partition/include -IC:/esp/esp-idf-v5.0.1/components/app_update/include -IC:/esp/esp-idf-v5.0.1/components/spi_flash/include -IC:/esp/esp-idf-v5.0.1/components/pthread/include -IC:/esp/esp-idf-v5.0.1/components/esp_timer/include -IC:/esp/esp-idf-v5.0.1/components/app_trace/include -IC:/esp/esp-idf-v5.0.1/components/esp_event/include -IC:/esp/esp-idf-v5.0.1/components/nvs_flash/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/include -IC:/esp/esp-idf-v5.0.1/components/esp_phy/esp32/include -IC:/esp/esp-idf-v5.0.1/components/vfs/include -IC:/esp/esp-idf-v5.0.1/components/esp_netif/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/port/include -IC:/esp/esp-idf-v5.0.1/components/wpa_supplicant/esp_supplicant/include -IC:/esp/esp-idf-v5.0.1/components/esp_wifi/include -IC:/esp/esp-idf-v5.0.1/components/unity/include -IC:/esp/esp-idf-v5.0.1/components/unity/unity/src -IC:/esp/esp-idf-v5.0.1/components/cmock/CMock/src -IC:/esp/esp-idf-v5.0.1/components/console -IC:/esp/esp-idf-v5.0.1/components/http_parser -IC:/esp/esp-idf-v5.0.1/components/esp-tls -IC:/esp/esp-idf-v5.0.1/components/esp-tls/esp-tls-crypto -IC:/esp/esp-idf-v5.0.1/components/esp_adc/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/interface -IC:/esp/esp-idf-v5.0.1/components/esp_adc/esp32/include -IC:/esp/esp-idf-v5.0.1/components/esp_adc/deprecated/include -IC:/esp/esp-idf-v5.0.1/components/esp_eth/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/include -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/xtensa -IC:/esp/esp-idf-v5.0.1/components/esp_gdbstub/esp32 -IC:/esp/esp-idf-v5.0.1/components/esp_hid/include -IC:/esp/esp-idf-v5.0.1/components/tcp_transport/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_client/include -IC:/esp/esp-idf-v5.0.1/components/esp_http_server/include -IC:/esp/esp-idf-v5.0.1/components/esp_https_ota/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/include -IC:/esp/esp-idf-v5.0.1/components/esp_lcd/interface -IC:/esp/esp-idf-v5.0.1/components/protobuf-c/protobuf-c -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/common -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/security -IC:/esp/esp-idf-v5.0.1/components/protocomm/include/transports -IC:/esp/esp-idf-v5.0.1/components/esp_local_ctrl/include -IC:/esp/esp-idf-v5.0.1/components/esp_psram/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include -IC:/esp/esp-idf-v5.0.1/components/espcoredump/include/port/xtensa -IC:/esp/esp-idf-v5.0.1/components/wear_levelling/include -IC:/esp/esp-idf-v5.0.1/components/sdmmc/include -IC:/esp/esp-idf-v5.0.1/components/fatfs/diskio -IC:/esp/esp-idf-v5.0.1/components/fatfs/vfs -IC:/esp/esp-idf-v5.0.1/components/fatfs/src -IC:/esp/esp-idf-v5.0.1/components/idf_test/include -IC:/esp/esp-idf-v5.0.1/components/idf_test/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/ieee802154/include -IC:/esp/esp-idf-v5.0.1/components/json/cJSON -IC:/esp/esp-idf-v5.0.1/components/mqtt/esp-mqtt/include -IC:/esp/esp-idf-v5.0.1/components/perfmon/include -IC:/esp/esp-idf-v5.0.1/components/spiffs/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include -IC:/esp/esp-idf-v5.0.1/components/ulp/ulp_common/include/esp32 -IC:/esp/esp-idf-v5.0.1/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og "-fmacro-prefix-map=C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement=." -fmacro-prefix-map=C:/esp/esp-idf-v5.0.1=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.1-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/AccessPointMode.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\AccessPointMode.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/AccessPointMode.c.obj -c "C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c"
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:24,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:1:
+C:/esp/esp-idf-v5.0.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c: In function 'wifi_event_handler':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:7:21: error: 'WIFI_EVENT_AP_STACONNECTED' undeclared (first use in this function)
+    7 |     if (event_id == WIFI_EVENT_AP_STACONNECTED) {
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:7:21: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:8:9: error: unknown type name 'wifi_event_ap_staconnected_t'
+    8 |         wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:8:48: error: 'wifi_event_ap_staconnected_t' undeclared (first use in this function)
+    8 |         wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:8:77: error: expected expression before ')' token
+    8 |         wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
+      |                                                                             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:8:39: warning: unused variable 'event' [-Wunused-variable]
+    8 |         wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
+      |                                       ^~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:11:28: error: 'WIFI_EVENT_AP_STADISCONNECTED' undeclared (first use in this function)
+   11 |     } else if (event_id == WIFI_EVENT_AP_STADISCONNECTED) {
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:12:9: error: unknown type name 'wifi_event_ap_stadisconnected_t'
+   12 |         wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:12:51: error: 'wifi_event_ap_stadisconnected_t' undeclared (first use in this function)
+   12 |         wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:12:83: error: expected expression before ')' token
+   12 |         wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
+      |                                                                                   ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:12:42: warning: unused variable 'event' [-Wunused-variable]
+   12 |         wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
+      |                                          ^~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c: In function 'wifi_init_accesspoint_mode':
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:25:15: error: implicit declaration of function 'esp_netif_create_default_wifi_ap'; did you mean 'esp_netif_set_default_netif'? [-Werror=implicit-function-declaration]
+   25 |     p_netif = esp_netif_create_default_wifi_ap();
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               esp_netif_set_default_netif
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:25:13: warning: assignment to 'esp_netif_t *' {aka 'struct esp_netif_obj *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     p_netif = esp_netif_create_default_wifi_ap();
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:27:5: error: unknown type name 'wifi_init_config_t'; did you mean 'uart_intr_config_t'?
+   27 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |     ^~~~~~~~~~~~~~~~~~
+      |     uart_intr_config_t
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:27:30: error: implicit declaration of function 'WIFI_INIT_CONFIG_DEFAULT' [-Werror=implicit-function-declaration]
+   27 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/esp_intr_alloc.h:11,
+                 from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/esp_cpu.h:20,
+                 from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/spinlock.h:11,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:74,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:58,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:70,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:1,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:1:
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:28:21: error: implicit declaration of function 'esp_wifi_init'; did you mean 'esp_netif_init'? [-Werror=implicit-function-declaration]
+   28 |     ESP_ERROR_CHECK(esp_wifi_init(&cfg));
+      |                     ^~~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:30:48: error: 'WIFI_EVENT' undeclared (first use in this function); did you mean 'IP_EVENT'?
+   30 |     ESP_ERROR_CHECK(esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &wifi_event_handler, NULL));
+      |                                                ^~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:32:5: error: unknown type name 'wifi_config_t'; did you mean 'gpio_config_t'?
+   32 |     wifi_config_t wifi_config = {
+      |     ^~~~~~~~~~~~~
+      |     gpio_config_t
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:33:9: error: field name not in record or union initializer
+   33 |         .ap = {
+      |         ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:33:9: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:33:9: warning: braces around scalar initializer
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:33:9: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:34:13: error: field name not in record or union initializer
+   34 |             .ssid = ESP_AP_WIFI_SSID,
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:34:13: note: (near initialization for 'wifi_config')
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:43,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:1:
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/constants.h:145:37: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  145 |     #define ESP_AP_WIFI_SSID        "CYPRESSfourRelay_15753C"
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:34:21: note: in expansion of macro 'ESP_AP_WIFI_SSID'
+   34 |             .ssid = ESP_AP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/constants.h:145:37: note: (near initialization for 'wifi_config')
+  145 |     #define ESP_AP_WIFI_SSID        "CYPRESSfourRelay_15753C"
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:34:21: note: in expansion of macro 'ESP_AP_WIFI_SSID'
+   34 |             .ssid = ESP_AP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:35:13: error: field name not in record or union initializer
+   35 |             .ssid_len = strlen(ESP_AP_WIFI_SSID),
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:35:13: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:35:25: warning: excess elements in scalar initializer
+   35 |             .ssid_len = strlen(ESP_AP_WIFI_SSID),
+      |                         ^~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:35:25: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:36:13: error: field name not in record or union initializer
+   36 |             .password = ESP_AP_WIFI_PASS,
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:36:13: note: (near initialization for 'wifi_config')
+In file included from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:43,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:1:
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/constants.h:68:26: warning: excess elements in scalar initializer
+   68 | #define ESP_AP_WIFI_PASS "123456789"
+      |                          ^~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:36:25: note: in expansion of macro 'ESP_AP_WIFI_PASS'
+   36 |             .password = ESP_AP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/constants.h:68:26: note: (near initialization for 'wifi_config')
+   68 | #define ESP_AP_WIFI_PASS "123456789"
+      |                          ^~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:36:25: note: in expansion of macro 'ESP_AP_WIFI_PASS'
+   36 |             .password = ESP_AP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:37:13: error: field name not in record or union initializer
+   37 |             .max_connection = ESP_AP_MAX_STA_CONN,
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:37:13: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:3:31: warning: excess elements in scalar initializer
+    3 | #define ESP_AP_MAX_STA_CONN   10
+      |                               ^~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:37:31: note: in expansion of macro 'ESP_AP_MAX_STA_CONN'
+   37 |             .max_connection = ESP_AP_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:3:31: note: (near initialization for 'wifi_config')
+    3 | #define ESP_AP_MAX_STA_CONN   10
+      |                               ^~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:37:31: note: in expansion of macro 'ESP_AP_MAX_STA_CONN'
+   37 |             .max_connection = ESP_AP_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:38:13: error: field name not in record or union initializer
+   38 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK
+      |             ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:38:13: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:38:25: error: 'WIFI_AUTH_WPA_WPA2_PSK' undeclared (first use in this function)
+   38 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:38:25: warning: excess elements in scalar initializer
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:38:25: note: (near initialization for 'wifi_config')
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:42:20: error: request for member 'ap' in something not a structure or union
+   42 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                    ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:42:35: error: 'WIFI_AUTH_OPEN' undeclared (first use in this function)
+   42 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                                   ^~~~~~~~~~~~~~
+In file included from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/esp_intr_alloc.h:11,
+                 from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/esp_cpu.h:20,
+                 from C:/esp/esp-idf-v5.0.1/components/esp_hw_support/include/spinlock.h:11,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:74,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:58,
+                 from C:/esp/esp-idf-v5.0.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:70,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/context.h:1,
+                 from C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:1:
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:45:21: error: implicit declaration of function 'esp_wifi_set_mode' [-Werror=implicit-function-declaration]
+   45 |     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
+      |                     ^~~~~~~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:45:39: error: 'WIFI_MODE_AP' undeclared (first use in this function); did you mean 'AT_MODE_AP'?
+   45 |     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
+      |                                       ^~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:46:21: error: implicit declaration of function 'esp_wifi_set_config' [-Werror=implicit-function-declaration]
+   46 |     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_AP, &wifi_config));
+      |                     ^~~~~~~~~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:46:41: error: 'ESP_IF_WIFI_AP' undeclared (first use in this function); did you mean 'ESP_AP_WIFI_PASS'?
+   46 |     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_AP, &wifi_config));
+      |                                         ^~~~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+C:/Users/35192/Desktop/Cypress/Terminal/Cypress Terminal Platform/e1_adc_measurement/main/AccessPointMode.c:47:21: error: implicit declaration of function 'esp_wifi_start'; did you mean 'esp_ping_start'? [-Werror=implicit-function-declaration]
+   47 |     ESP_ERROR_CHECK(esp_wifi_start());
+      |                     ^~~~~~~~~~~~~~
+C:/esp/esp-idf-v5.0.1/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+cc1.exe: some warnings being treated as errors
+ninja: build stopped: subcommand failed.
